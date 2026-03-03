@@ -31,20 +31,21 @@ const Navbar = ({ handleLoginPopup }) => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-gray-700 hover:text-gray-900 px-4 py-4 inline-block select-none"
-                  >
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <a
+                 
+                    <a
                     href="#"
                     onClick={handleLoginPopup}
                     className="text-gray-700 hover:text-gray-900 px-4 py-4 inline-block select-none"
                   >
                     Login
+                  </a>
+                </li>
+                <li>
+                 <a
+                    href="#"
+                    className="text-gray-700 hover:text-gray-900 px-4 py-4 inline-block select-none"
+                  >
+                    Contact
                   </a>
                 </li>
               </ul>
