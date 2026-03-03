@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
-import BgImage from "./assets/sunrise.jpg";
+import BgImage from "./assets/image.jpg";
 import Hero from "./components/Hero/Hero";
 
 const App = () => {
