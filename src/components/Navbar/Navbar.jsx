@@ -50,7 +50,7 @@ const Navbar = ({ handleLoginPopup }) => {
               </ul>
             </div>
 
-            {/* hamburger menu */}
+            
             <div className="block sm:hidden">
               <button
                 onClick={handleLoginPopup}

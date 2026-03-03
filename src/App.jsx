@@ -25,7 +25,6 @@ const App = () => {
         <Hero />
       </main>
 
-      {/* Login Popup */}
       <LoginPopup loginPopup={loginPopup} handleLoginPopup={handleLoginPopup} />
     </>
   );
